@@ -1,0 +1,232 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is on Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 613354600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1114449900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter username",
+            "match": {
+              "location": "LoginPageSteps.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 558934200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter password",
+            "match": {
+              "location": "LoginPageSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 833282501,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19485378599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User Should login Successfully with valid Credentials",
+        "description": "",
+        "id": "login-test;user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1830138600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 344962200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify the Text Products is displayed",
+            "match": {
+              "location": "LoginPageSteps.verifyTheTextProductsIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 584780000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter username",
+            "match": {
+              "location": "LoginPageSteps.iEnterUsername()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 235157599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Enter password",
+            "match": {
+              "location": "LoginPageSteps.iEnterPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311319800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Login Button",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8119752699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "verify Six Products Are Displayed On Page",
+        "description": "",
+        "id": "login-test;verify-six-products-are-displayed-on-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1961745300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 685992700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify six Products are Displayed on Page",
+            "match": {
+              "location": "LoginPageSteps.verifySixProductsAreDisplayedOnPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 14,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]

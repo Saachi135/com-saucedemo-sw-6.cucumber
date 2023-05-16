@@ -1,0 +1,16 @@
+2023-05-15 20:05:809 INFO  LoginPage :30 - Enter User Name :[[ChromeDriver: chrome on WINDOWS (0dcfdc774a8901f5740797ef1c702e30)] -> id: user-name]
+2023-05-15 20:05:188 INFO  LoginPage :35 - Enter Password :[[ChromeDriver: chrome on WINDOWS (0dcfdc774a8901f5740797ef1c702e30)] -> id: password]
+2023-05-15 20:05:389 INFO  LoginPage :40 - Click on Login Button :[[ChromeDriver: chrome on WINDOWS (0dcfdc774a8901f5740797ef1c702e30)] -> id: login-button]
+2023-05-15 20:05:916 INFO  InventoryPage :25 - Get Product Text from : [[ChromeDriver: chrome on WINDOWS (0dcfdc774a8901f5740797ef1c702e30)] -> class name: title]
+2023-05-15 20:05:441 INFO  LoginPage :30 - Enter User Name :[[ChromeDriver: chrome on WINDOWS (f5075f912125a5af26fb6e0666553c61)] -> id: user-name]
+2023-05-15 20:05:830 INFO  LoginPage :35 - Enter Password :[[ChromeDriver: chrome on WINDOWS (f5075f912125a5af26fb6e0666553c61)] -> id: password]
+2023-05-15 20:05:115 INFO  LoginPage :40 - Click on Login Button :[[ChromeDriver: chrome on WINDOWS (f5075f912125a5af26fb6e0666553c61)] -> id: login-button]
+2023-05-15 20:05:470 INFO  InventoryPage :30 - Find Actual Number of product 
+2023-05-16 23:05:582 INFO  LoginPage :30 - Enter User Name :[[ChromeDriver: chrome on WINDOWS (75d479e267bc63871bebc0a3ade57028)] -> id: user-name]
+2023-05-16 23:05:566 INFO  LoginPage :35 - Enter Password :[[ChromeDriver: chrome on WINDOWS (75d479e267bc63871bebc0a3ade57028)] -> id: password]
+2023-05-16 23:05:105 INFO  LoginPage :40 - Click on Login Button :[[ChromeDriver: chrome on WINDOWS (75d479e267bc63871bebc0a3ade57028)] -> id: login-button]
+2023-05-16 23:05:11 INFO  InventoryPage :25 - Get Product Text from : [[ChromeDriver: chrome on WINDOWS (75d479e267bc63871bebc0a3ade57028)] -> class name: title]
+2023-05-16 23:05:331 INFO  LoginPage :30 - Enter User Name :[[ChromeDriver: chrome on WINDOWS (f1552a3e1eee3d0f571b8a00a8a9ea0a)] -> id: user-name]
+2023-05-16 23:05:789 INFO  LoginPage :35 - Enter Password :[[ChromeDriver: chrome on WINDOWS (f1552a3e1eee3d0f571b8a00a8a9ea0a)] -> id: password]
+2023-05-16 23:05:16 INFO  LoginPage :40 - Click on Login Button :[[ChromeDriver: chrome on WINDOWS (f1552a3e1eee3d0f571b8a00a8a9ea0a)] -> id: login-button]
+2023-05-16 23:05:419 INFO  InventoryPage :30 - Find Actual Number of product 
